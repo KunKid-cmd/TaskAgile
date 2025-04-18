@@ -23,7 +23,7 @@ Users can:
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
 
