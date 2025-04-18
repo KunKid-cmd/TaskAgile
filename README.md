@@ -1,7 +1,6 @@
 # TaskAgile
 
-**TaskAgile** is a modern and responsive Todo List web app built with **
-Django**, powered by **Neon PostgreSQL** and **Cloudinary** for media storage.
+**TaskAgile** is a modern and responsive Todo List web app built with **Django**, powered by **Neon PostgreSQL** and **Cloudinary** for media storage.
 
 Users can:
 
