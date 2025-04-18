@@ -1,8 +1,10 @@
-# 📝 TaskAgile
+# TaskAgile
 
-**TaskAgile** is a modern and responsive Todo List web app built with **Django**, powered by **Neon PostgreSQL** and **Cloudinary** for media storage.
+**TaskAgile** is a modern and responsive Todo List web app built with **
+Django**, powered by **Neon PostgreSQL** and **Cloudinary** for media storage.
 
 Users can:
+
 - Sign up / log in securely
 - Add, edit, and delete tasks
 - Attach images to todos (stored on Cloudinary)
@@ -11,9 +13,9 @@ Users can:
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
-- **Backend**: Django 
+- **Backend**: Django
 - **Database**: PostgreSQL (hosted on Neon)
 - **Media**: Cloudinary
 - **Frontend**: Bootstrap 5
@@ -38,6 +40,7 @@ source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 ```
 
 3. **Install dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -51,7 +54,20 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-6. **Run the server**
+6. **Run test**
+   First Time
+
+```bash
+python manage.py test
+```
+
+After the First Run (reuse DB):
+
+```bash
+python manage.py test --keepdb
+```
+
+7. **Run the server**
 
 ```bash
 python manage.py runserver
