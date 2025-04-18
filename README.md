@@ -18,7 +18,6 @@ Users can:
 - **Database**: PostgreSQL (hosted on Neon)
 - **Media**: Cloudinary
 - **Frontend**: Bootstrap 5
-- **Storage & Config**: dotenv + widget-tweaks
 
 ---
 
